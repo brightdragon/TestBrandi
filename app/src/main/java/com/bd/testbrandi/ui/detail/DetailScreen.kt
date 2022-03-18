@@ -24,6 +24,8 @@ import com.google.accompanist.coil.rememberCoilPainter
 @Composable
 fun DetailScreen(viewModel: SearchViewModel, navController: NavController){
 
+    // val nav =
+
     Surface(
         modifier = Modifier
             .fillMaxSize()

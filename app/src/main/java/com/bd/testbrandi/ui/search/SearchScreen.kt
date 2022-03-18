@@ -74,6 +74,8 @@ fun SearchScreen(
     navController: NavController,
     state: SearchState = rememberSearchState()) {
 
+    Log.e("##", "kypark >>> Test")
+
     Surface(
         modifier = Modifier
             .fillMaxSize()
